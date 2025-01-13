@@ -29,14 +29,14 @@ jobs:
 
     # Step 4: Generate documentation using Doxygen
     - name: Generate documentation
-      run: doxygen Docs/Doxyfile  # Run Doxygen with your Doxyfile
+      run: cd ./Docs && doxygen ./Doxyfile  # Run Doxygen with your Doxyfile
 
     # Step 5: Deploy to GitHub Pages
     - name: Deploy documentation to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
-        publish_dir: ./Docs/html  # Ensure this points to the correct directory
+        publish_dir: ./html  # Ensure this points to the correct directory
         publish_branch: gh-pages  # The branch where docs will be deployed
 
 
