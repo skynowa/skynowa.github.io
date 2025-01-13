@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest  # You can choose another runner if needed
 
+    permissions:
+      contents: write  # Ensure that the GitHub Actions bot has write access to the repository
+
     steps:
     # Step 1: Checkout the repository
     - name: Checkout repository
@@ -21,8 +24,8 @@ jobs:
       run: sudo apt-get install -y doxygen
 
     # Step 3: List files in the Docs directory to confirm Doxyfile location
-    - name: List files in xLib/Docs/
-      run: ls -la ./
+    - name: List files in Docs/
+      run: ls -la Docs/
 
     # Step 4: Generate documentation using Doxygen
     - name: Generate documentation
