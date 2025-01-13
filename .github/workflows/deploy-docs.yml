@@ -42,6 +42,10 @@ jobs:
 
     # Step 6:
     - name: List files in Docs/
+      run: pwd && ls -la ../../
+
+    # Step 6:
+    - name: List files in Docs/
       run: pwd && ls -la ../
 
     # Step 6:
