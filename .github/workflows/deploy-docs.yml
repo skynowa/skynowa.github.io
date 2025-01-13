@@ -3,25 +3,31 @@ name: Deploy Doxygen Documentation
 on:
   push:
     branches:
-      - main
+      - main  # Trigger deployment on push to the main branch
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # You can choose another runner if needed
 
     steps:
+    # Step 1: Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        repository: skynowa/xLib  # Clone the specific repository
 
+    # Step 2: Set up Doxygen
     - name: Set up Doxygen
-      run: sudo apt-get install doxygen
+      run: sudo apt-get install -y doxygen
 
+    # Step 3: Generate documentation using Doxygen
     - name: Generate documentation
-      run: doxygen xLib/Docs/Documentation.doxyfile
+      run: doxygen xLib/Docs/Doxyfile  # Run Doxygen with your Doxyfile
 
+    # Step 4: Deploy to GitHub Pages
     - name: Deploy documentation to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./xLib/Docs/html
-        publish_branch: gh-pages
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+        publish_dir: ./xLib/Docs/html  # Directory where Doxygen generates the HTML output
+        publish_branch: gh-pages  # The branch where docs will be deployed
