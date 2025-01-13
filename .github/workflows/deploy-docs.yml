@@ -39,12 +39,6 @@ jobs:
         publish_dir: ./xLib/Docs/html  # Ensure this points to the correct directory
         publish_branch: gh-pages  # The branch where docs will be deployed
 
-    # Step 6: Print GitHub Pages URL
-    - name: Print GitHub Pages URL
-      run: echo "GitHub Pages is deployed at: https://skynowa.github.io/xLib/"
-
-
-
 
     # Step 6:
     - name: List files in Docs/
