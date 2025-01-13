@@ -39,6 +39,16 @@ jobs:
         publish_dir: ./xLib/Docs/html  # Directory where Doxygen generates the HTML output
         publish_branch: gh-pages  # The branch where docs will be deployed
 
+
+
+    # Step 6:
+    - name: List files in Docs/
+      run: ls -la ../
+
+    # Step 6:
+    - name: List files in Docs/
+      run: ls -la .
+
     # Step 6:
     - name: List files in Docs/
       run: ls -la Docs/
