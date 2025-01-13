@@ -43,16 +43,16 @@ jobs:
 
     # Step 6:
     - name: List files in Docs/
-      run: ls -la ../
+      run: pwd && ls -la ../
 
     # Step 6:
     - name: List files in Docs/
-      run: ls -la .
+      run: pwd && ls -la .
 
     # Step 6:
     - name: List files in Docs/
-      run: ls -la Docs/
+      run: pwd && ls -la Docs/
 
     # Step 6:
     - name: List files in Docs/
-      run: ls -la html/
+      run: pwd && ls -la html/
