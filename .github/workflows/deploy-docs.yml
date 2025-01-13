@@ -22,7 +22,7 @@ jobs:
 
     # Step 3: List files in the Docs directory to confirm Doxyfile location
     - name: List files in xLib/Docs/
-      run: ls -la xLib/Docs/
+      run: ls -la ./
 
     # Step 4: Generate documentation using Doxygen
     - name: Generate documentation
