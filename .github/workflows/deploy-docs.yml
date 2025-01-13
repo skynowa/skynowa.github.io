@@ -55,4 +55,4 @@ jobs:
 
     # Step 6:
     - name: List files in Docs/
-      run: ls -la Docs/html
+      run: ls -la html/
