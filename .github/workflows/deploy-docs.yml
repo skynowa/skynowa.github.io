@@ -20,11 +20,15 @@ jobs:
     - name: Set up Doxygen
       run: sudo apt-get install -y doxygen
 
-    # Step 3: Generate documentation using Doxygen
+    # Step 3: List files in the Docs directory to confirm Doxyfile location
+    - name: List files in xLib/Docs/
+      run: ls -la xLib/Docs/
+
+    # Step 4: Generate documentation using Doxygen
     - name: Generate documentation
       run: doxygen xLib/Docs/Doxyfile  # Run Doxygen with your Doxyfile
 
-    # Step 4: Deploy to GitHub Pages
+    # Step 5: Deploy to GitHub Pages
     - name: Deploy documentation to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
