@@ -24,20 +24,25 @@ jobs:
       run: sudo apt-get install -y doxygen
 
     # Step 3: List files in the Docs directory to confirm Doxyfile location
-    - name: List files in Docs/
-      run: ls -la Docs/
+    - name: List files in xLib/Docs/
+      run: ls -la xLib/Docs/
 
     # Step 4: Generate documentation using Doxygen
     - name: Generate documentation
-      run: doxygen Docs/Doxyfile  # Run Doxygen with your Doxyfile
+      run: doxygen xLib/Docs/Doxyfile  # Run Doxygen with your Doxyfile
 
     # Step 5: Deploy to GitHub Pages
     - name: Deploy documentation to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
-        publish_dir: ./xLib/Docs/html  # Directory where Doxygen generates the HTML output
+        publish_dir: ./xLib/Docs/html  # Ensure this points to the correct directory
         publish_branch: gh-pages  # The branch where docs will be deployed
+
+    # Step 6: Print GitHub Pages URL
+    - name: Print GitHub Pages URL
+      run: echo "GitHub Pages is deployed at: https://skynowa.github.io/xLib/"
+
 
 
 
