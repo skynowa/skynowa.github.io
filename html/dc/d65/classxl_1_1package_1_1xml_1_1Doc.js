@@ -1,0 +1,25 @@
+var classxl_1_1package_1_1xml_1_1Doc =
+[
+    [ "doc_unique_ptr_t", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#af068b71cbdb3e8590e634d891d5bf13d", null ],
+    [ "Doc", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#afedd618bfa86d8e4f1827ed13d8dc905", null ],
+    [ "~Doc", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#aedb3d265f96618e0ba4c733bad384fa8", null ],
+    [ "_onError", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a6cd7ee77e60d9c87684b0ff94e033f0c", null ],
+    [ "_registerNss", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a693051cb6626c63799d033e79c8438a7", null ],
+    [ "_rootNode", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#ac39cf83e3d83b59f0321cbadc74103d9", null ],
+    [ "_stringNoNs", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a86461c5d8db3e1591e098265caa4b2a4", null ],
+    [ "format", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#ab86ac2d376e86ebcf3ca6f8ad59dfdbb", null ],
+    [ "isOk", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#ad6a44a82976d2bbcf112124d55060312", null ],
+    [ "parse", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a5ae595de53c8d75a2780f8d6901edb7e", null ],
+    [ "parseFile", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a4e40e166fbdebd16ab1f9785e0d3332a", null ],
+    [ "print", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#ac6306fb479f569eea011d8e5fc7065e8", null ],
+    [ "saveToFile", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#ac4b61b4267ed77743d5b6d9d63e79429", null ],
+    [ "setNss", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#adfa4f7ac3964805d7b8d263c81c78d3c", null ],
+    [ "str", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a5b792be693694bee1ec2f79b0e5a11d4", null ],
+    [ "xNO_COPY_ASSIGN", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#ae3bacf1e90f5e547fe9afeac741021d4", null ],
+    [ "xNO_DEFAULT_CONSTRUCT", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a0e526e699678cf3add402a97aafcc9e2", null ],
+    [ "Node", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a6db9d28bd448a131448276ee03de1e6d", null ],
+    [ "__pad0__", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a6d759995bdd54e2371e3f8535437a82b", null ],
+    [ "_doc", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#aa42bfc9b26fe9934f1fb1931514b0e7e", null ],
+    [ "_iconv", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a8f659a363ee3c01e786ab73cb099b25c", null ],
+    [ "_nss", "dc/d65/classxl_1_1package_1_1xml_1_1Doc.html#a5fd9a38b4a1dc4a628bda644dc313ba8", null ]
+];
