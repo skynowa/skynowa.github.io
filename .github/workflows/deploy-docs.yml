@@ -36,7 +36,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
-        publish_dir: ./skynowa.github.io/Docs  # Ensure this points to the correct directory
+        # publish_dir: ./skynowa.github.io/Docs  # Ensure this points to the correct directory
+        publish_dir: .
         publish_branch: gh-pages  # The branch where docs will be deployed
 
     #----------------------------------
