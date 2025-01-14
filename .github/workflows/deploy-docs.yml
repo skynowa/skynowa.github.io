@@ -38,7 +38,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
         # publish_dir: ./skynowa.github.io/Docs  # Ensure this points to the correct directory
         publish_dir: ./html
-        publish_branch: gh-pages  # The branch where docs will be deployed.
+        publish_branch: gh-pages  # The branch where docs will be deployed..
 
     #----------------------------------
     # Step 6:
