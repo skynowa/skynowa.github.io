@@ -22,18 +22,18 @@ jobs:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository
 
     steps:
-    - name: [xLib] Checkout
+    - name: xLib - Checkout
       uses: actions/checkout@v2
       with:
         repository: skynowa/xLib
 
-    - name: [Doxygen] Install
+    - name: Doxygen - Install
       run: sudo apt install doxygen -y && doxygen --version
 
-    - name: [Docs] Generate
+    - name: Docs - Generate
       run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
-    - name: [GitHub Pages] Deploy
+    - name: GitHub Pages - Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
