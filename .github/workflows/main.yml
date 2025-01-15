@@ -18,6 +18,11 @@ jobs:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository
 
     steps:
+
+    # Step: locate
+    - name: Set up locate
+      run: sudo apt install -y locate
+
     # Step 1: Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v2
