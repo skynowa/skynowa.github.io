@@ -27,7 +27,7 @@ jobs:
 
     # Logs
     - name: Docs - Generate
-      run: cd ./Docs && doxygen ./Doxyfile
+      run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
     # Logs
     - name: GitHub Pages - Deploy
@@ -35,7 +35,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         # publish_dir: ./skynowa.github.io/Docs  # Ensure this points to the correct directory
-        publish_dir: .
+        publish_dir: ./Docs/html
         publish_branch: gh-pages
 
     #----------------------------------
