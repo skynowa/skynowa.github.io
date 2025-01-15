@@ -1,1 +1,0 @@
-# skynowa.github.io
