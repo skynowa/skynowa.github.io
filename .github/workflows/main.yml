@@ -41,6 +41,10 @@ jobs:
     - name: List files in Docs/
       run: pwd && ls -la Docs/
 
+    # Step 6:
+    - name: List files in Docs/
+      run: pwd && locate Doxyfile
+
 
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
