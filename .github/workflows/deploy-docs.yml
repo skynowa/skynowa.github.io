@@ -1,3 +1,12 @@
+####################################################################################################
+# \file  deploy-docs.yml
+# \brief Deploy xLib Doxygen docs
+#
+# \see   https://github.com/peaceiris/actions-gh-pages
+#
+####################################################################################################
+
+
 name: Deploy Doxygen Documentation
 
 on:
@@ -13,44 +22,20 @@ jobs:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository
 
     steps:
-    - name: xLib - Checkout
+    - name: [xLib] Checkout
       uses: actions/checkout@v2
       with:
         repository: skynowa/xLib
 
-    - name: Doxygen - install
-      run: sudo apt-get install -y doxygen
+    - name: [Doxygen] Install
+      run: sudo apt install doxygen -y && doxygen --version
 
-    # Logs
-    - name: List files in xLib/Docs/
-      run: ls -la Docs/
-
-    # Logs
-    - name: Docs - Generate
+    - name: [Docs] Generate
       run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
-    # Logs
-    - name: GitHub Pages - Deploy
+    - name: [GitHub Pages] Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        # publish_dir: ./skynowa.github.io/Docs  # Ensure this points to the correct directory
         publish_dir: ./Docs/html
         publish_branch: gh-pages
-
-    #----------------------------------
-    # Logs
-    - name: List files in Docs/
-      run: pwd && ls -la ../../
-
-    # Logs
-    - name: List files in Docs/
-      run: pwd && ls -la ../
-
-    # Logs
-    - name: List files in Docs/
-      run: pwd && ls -la .
-
-    # Logs
-    - name: List files in Docs/
-      run: pwd && ls -la Docs/
