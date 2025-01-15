@@ -18,13 +18,7 @@ jobs:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository
 
     steps:
-
-    # Step: locate
-    - name: Set up locate
-      run: sudo apt install -y locate
-
-    # Step 1: Checkout the repository
-    - name: Checkout repository
+    - name: skynowa/xLib - Checkout
       uses: actions/checkout@v2
       with:
         repository: skynowa/xLib  # Clone the specific repository
@@ -50,10 +44,7 @@ jobs:
     - name: List files in Docs/
       run: pwd && locate Doxyfile
 
-
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:

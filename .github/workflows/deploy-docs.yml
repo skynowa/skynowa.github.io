@@ -7,52 +7,50 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # You can choose another runner if needed
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository
 
     steps:
-    # Step 1: Checkout the repository
-    - name: Checkout repository
+    - name: xLib - Checkout
       uses: actions/checkout@v2
       with:
-        repository: skynowa/xLib  # Clone the specific repository
+        repository: skynowa/xLib
 
-    # Step 2: Set up Doxygen
-    - name: Set up Doxygen
+    - name: Doxygen - install
       run: sudo apt-get install -y doxygen
 
-    # Step 3: List files in the Docs directory to confirm Doxyfile location
+    # Logs
     - name: List files in xLib/Docs/
       run: ls -la Docs/
 
-    # Step 4: Generate documentation using Doxygen
-    - name: Generate documentation
-      run: cd ./Docs && doxygen ./Doxyfile  # Run Doxygen with your Doxyfile
+    # Logs
+    - name: Docs - Generate
+      run: cd ./Docs && doxygen ./Doxyfile
 
-    # Step 5: Deploy to GitHub Pages
-    - name: Deploy documentation to GitHub Pages
+    # Logs
+    - name: GitHub Pages - Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         # publish_dir: ./skynowa.github.io/Docs  # Ensure this points to the correct directory
-        publish_dir: ./html
-        publish_branch: gh-pages  # The branch where docs will be deployed....
+        publish_dir: .
+        publish_branch: gh-pages
 
     #----------------------------------
-    # Step 6:
+    # Logs
     - name: List files in Docs/
       run: pwd && ls -la ../../
 
-    # Step 6:
+    # Logs
     - name: List files in Docs/
       run: pwd && ls -la ../
 
-    # Step 6:
+    # Logs
     - name: List files in Docs/
       run: pwd && ls -la .
 
-    # Step 6:
+    # Logs
     - name: List files in Docs/
       run: pwd && ls -la Docs/
