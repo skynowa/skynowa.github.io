@@ -1,0 +1,40 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Doxygen Action
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Ensure that the GitHub Actions bot has write access to the repository
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        repository: skynowa/xLib  # Clone the specific repository
+
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    - name: Doxygen Action
+      uses: mattnotmitt/doxygen-action@v1.1.0
+      with:
+        doxyfile-path: "./Docs/Doxyfile" # default is ./Doxyfile
+        working-directory: "." # default is .
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Docs/html
