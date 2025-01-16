@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Ensure that the GitHub Actions bot has write access to the repository
+      contents: write  # Ensure that the GitHub Actions bot has write access to the repository.
 
     steps:
     - name: xLib - Checkout
