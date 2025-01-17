@@ -50,7 +50,9 @@ jobs:
         rm -rf ./xLib
 
     - name: Logs
-      run: echo $(pwd) && echo $(ls -la)
+      run: |
+        pwd
+        ls -la
 
     # - name: GitHub Pages - Deploy
     #   uses: peaceiris/actions-gh-pages@v3
