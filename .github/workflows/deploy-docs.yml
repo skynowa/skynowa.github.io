@@ -40,10 +40,14 @@ jobs:
         path: xLib
 
     - name: Docs - Generate
-      run: cd ./xLib/Docs && doxygen ./Doxyfile && cd -
+      run: cd ./xLib/Docs && doxygen ./Doxyfile
 
     - name: Docs - Move to root dir
-      run: mv ./xLib/Docs/html/* . && cd ..
+      run: |
+        mv ./xLib/Docs/html/* .
+
+        echo "xLib - remove"
+        rm -rf ./xLib
 
     - name: Logs
       run: echo $(pwd) && echo $(ls -la)
