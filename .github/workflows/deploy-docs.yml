@@ -22,6 +22,12 @@ jobs:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository.
 
     steps:
+    - name: Git Checkout
+      uses: actions/checkout@v2
+
+    - name: GitHub Pages - Create clean branch gh-pages
+      run:  git checkout -b gh-pages
+
     - name: xLib - Checkout
       uses: actions/checkout@v2
       with:
@@ -33,9 +39,53 @@ jobs:
     - name: Docs - Generate
       run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
-    - name: GitHub Pages - Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./Docs/html
-        publish_branch: gh-pages
+    # - name: GitHub Pages - Deploy
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: ./Docs/html
+    #     publish_branch: gh-pages
+
+
+    - name: Add generated autodocs to Git repo in the gh-pages branch
+      run:  |
+        git config --global user.email "skynowa@gmail.com"
+        git config --global user.name  "$GITHUB_WORKFLOW GitHub action"
+
+        git add ./Docs/html
+        git commit -am "Doxygen docs - update"
+
+    - name: GitHub Pages - Publish
+      run:  git push -f origin gh-pages:gh-pages
+
+    # steps:
+
+    #   - name: Git Checkout
+    #     uses: actions/checkout@v2
+
+    #   - name: Create clean gh-pages branch
+    #     run:  git checkout -b gh-pages
+
+    #   - name: Generate autodocs for libyui base lib
+    #     run:  make -C libyui -f Makefile.repo doc
+
+    #   - name: Move generated autodocs to target directory
+    #     run:  mv libyui/build/doc/html api-doc
+
+    #   - name: Add generated autodocs to Git repo in the gh-pages branch
+    #     run:  |
+    #       git config --global user.email "libyui-github-bot@suse.com"
+    #       git config --global user.name  "$GITHUB_WORKFLOW GitHub action"
+    #       git add api-doc
+    #       git commit -am "Generated API doc"
+
+    #   - name: Publish autodocs as GitHub pages
+    #     run:  git push -f origin gh-pages:gh-pages
+
+    #   - name: Result URLs
+    #     run:  |
+    #       REPO_OWNER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
+    #       REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)
+    #       echo "Formatted API docs:  https://$REPO_OWNER.github.io/$REPO_NAME/api-doc"
+    #       echo ""
+    #       echo "GitHub pages branch: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/tree/gh-pages"
