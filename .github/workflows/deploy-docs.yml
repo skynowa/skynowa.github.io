@@ -65,8 +65,7 @@ jobs:
 
     - name: GitHub Pages - Push
       run:  git push -f origin gh-pages:gh-pages
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      github_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Result URLs
       run:  |
