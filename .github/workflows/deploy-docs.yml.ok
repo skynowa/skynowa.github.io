@@ -1,6 +1,6 @@
 ####################################################################################################
 # \file  deploy-docs.yml
-# \brief Deploy xLib Doxygen docs
+# \brief Deploy xLib Doxygen docs (with peaceiris/actions-gh-pages)
 #
 # \see   https://github.com/peaceiris/actions-gh-pages
 #
