@@ -23,7 +23,9 @@ jobs:
 
     steps:
     - name: Doxygen - Install
-      run: sudo apt install doxygen -y && doxygen --version
+      run: |
+        sudo apt install doxygen -y
+        echo "Version: $(doxygen --version)"
 
     - name: Main repository-  Checkout
       uses: actions/checkout@v2
