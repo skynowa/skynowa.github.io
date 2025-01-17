@@ -22,11 +22,11 @@ jobs:
       contents: write  # Ensure that the GitHub Actions bot has write access to the repository.
 
     steps:
-    - name: Git Checkout
-      uses: actions/checkout@v2
-
     - name: Doxygen - Install
       run: sudo apt install doxygen -y && doxygen --version
+
+    - name: Main repository-  Checkout
+      uses: actions/checkout@v2
 
     - name: GitHub Pages - Create clean branch gh-pages
       run:  git checkout -b gh-pages
@@ -35,13 +35,13 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: skynowa/xLib
-        path: xLib
+        path: ../xLib
 
     - name: Docs - Generate
-      run: cd ./Docs && doxygen ./Doxyfile && cd ..
+      run: cd ../xLib/Docs && doxygen ./Doxyfile && cd -
 
     - name: Docs - Move to root dir
-      run: mv ./Docs/html/* . && cd ..
+      run: mv ../xLib/Docs/html/* . && cd ..
 
     - name: Logs
       run: echo $(pwd) && echo $(ls -la)
