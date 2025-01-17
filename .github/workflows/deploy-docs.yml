@@ -39,6 +39,9 @@ jobs:
     - name: Docs - Generate
       run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
+    - name: Docs - Move to root dir
+      run: mv ./Docs/html .
+
     # - name: GitHub Pages - Deploy
     #   uses: peaceiris/actions-gh-pages@v3
     #   with:
@@ -52,11 +55,11 @@ jobs:
         git config --global user.email "skynowa@gmail.com"
         git config --global user.name  "$GITHUB_WORKFLOW GitHub action"
 
-        git add ./Docs/html
+        git add .
         git commit -am "Doxygen docs - update"
 
-    - name: GitHub Pages - Publish
-      run:  git push -f origin gh-pages:gh-pages
+    # - name: GitHub Pages - Publish
+    #   run:  git push -f origin gh-pages:gh-pages
 
     # steps:
 
