@@ -40,7 +40,10 @@ jobs:
       run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
     - name: Docs - Move to root dir
-      run: mv ./Docs/html/* . && cd .. && echo $(pwd)
+      run: mv ./Docs/html/* . && cd ..
+
+    - name: Logs
+      run: echo $(pwd) && echo $(ls -la)
 
     # - name: GitHub Pages - Deploy
     #   uses: peaceiris/actions-gh-pages@v3
