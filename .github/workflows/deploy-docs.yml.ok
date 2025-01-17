@@ -1,0 +1,41 @@
+####################################################################################################
+# \file  deploy-docs.yml
+# \brief Deploy xLib Doxygen docs
+#
+# \see   https://github.com/peaceiris/actions-gh-pages
+#
+####################################################################################################
+
+
+name: Deploy Doxygen Documentation
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Ensure that the GitHub Actions bot has write access to the repository.
+
+    steps:
+    - name: xLib - Checkout
+      uses: actions/checkout@v2
+      with:
+        repository: skynowa/xLib
+
+    - name: Doxygen - Install
+      run: sudo apt install doxygen -y && doxygen --version
+
+    - name: Docs - Generate
+      run: cd ./Docs && doxygen ./Doxyfile && cd ..
+
+    - name: GitHub Pages - Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Docs/html
+        publish_branch: gh-pages
