@@ -40,7 +40,7 @@ jobs:
       run: cd ./Docs && doxygen ./Doxyfile && cd ..
 
     - name: Docs - Move to root dir
-      run: mv ./Docs/html .
+      run: mv ./Docs/html/* .
 
     # - name: GitHub Pages - Deploy
     #   uses: peaceiris/actions-gh-pages@v3
@@ -50,7 +50,7 @@ jobs:
     #     publish_branch: gh-pages
 
 
-    - name: Add generated autodocs to Git repo in the gh-pages branch
+    - name: Docs - Commit
       run:  |
         git config --global user.email "skynowa@gmail.com"
         git config --global user.name  "$GITHUB_WORKFLOW GitHub action"
@@ -58,8 +58,8 @@ jobs:
         git add .
         git commit -am "Doxygen docs - update"
 
-    # - name: GitHub Pages - Publish
-    #   run:  git push -f origin gh-pages:gh-pages
+    - name: GitHub Pages - Push
+      run:  git push -f origin gh-pages:gh-pages
 
     # steps:
 
