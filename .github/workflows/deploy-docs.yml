@@ -50,11 +50,6 @@ jobs:
         echo "xLib - remove"
         rm -rf ./xLib
 
-    - name: Logs
-      run: |
-        pwd
-        ls -la
-
     - name: Docs - Commit
       run:  |
         git config --global user.email "skynowa@gmail.com"
