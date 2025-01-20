@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['uchar_5ft_0',['uchar_t',['../db/d2f/Core_2Type_2Types_8h.html#ad0aed21956a535a9731abae314c14c49',1,'xl']]],
+  ['underline_1',['Underline',['../d0/ddb/classxl_1_1system_1_1Console.html#a50da78ce54ddb4e368dbaacf618fa3f3a852721aa5fc738dfedff2945d71da439',1,'xl::system::Console']]],
+  ['ungetchar_2',['ungetChar',['../d9/df1/classxl_1_1fs_1_1FileIO.html#ac603e8fc005182acc54e52005f52e875',1,'xl::fs::FileIO']]],
+  ['unit_3',['unit',['../dc/dd5/classxl_1_1test_1_1Unit.html',1,'xl::test::Unit'],['../dc/dd5/classxl_1_1test_1_1Unit.html#a0a24869300ea207fb524beec10d7e27b',1,'xl::test::Unit::unit()']]],
+  ['unit_2ecpp_4',['Unit.cpp',['../d1/deb/Unit_8cpp.html',1,'']]],
+  ['unit_2eh_5',['Unit.h',['../d1/daf/Unit_8h.html',1,'']]],
+  ['unitloops_6',['unitLoops',['../d0/db1/structxl_1_1test_1_1UnitOption.html#a4856f5a5b39a27e5fd0cf6134e346fe1',1,'xl::test::UnitOption']]],
+  ['unitoption_7',['UnitOption',['../d0/db1/structxl_1_1test_1_1UnitOption.html',1,'xl::test']]],
+  ['units_2eh_8',['Units.h',['../da/d58/Units_8h.html',1,'']]],
+  ['unixsocket_9',['unixSocket',['../d8/d50/classxl_1_1db_1_1mysql_1_1Options.html#aaf285b8143666bc33dd3f03b56fb4313',1,'xl::db::mysql::Options']]],
+  ['unknown_10',['unknown',['../d3/d2c/classxl_1_1system_1_1info_1_1PowerSupply.html#af2935bb787e6644826b83b8fbf368470a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::system::info::PowerSupply::Unknown'],['../d0/ddb/classxl_1_1system_1_1Console.html#a50da78ce54ddb4e368dbaacf618fa3f3a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::system::Console::Unknown'],['../d0/d78/classxl_1_1package_1_1curl_1_1HttpClient.html#a5d341a111403a9a33fc3a2254ba1d9f3a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::package::curl::HttpClient::Unknown'],['../da/d37/classxl_1_1debug_1_1ErrorReport.html#a8a8d80a828caa03346bb5100e1a341d7a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::debug::ErrorReport::Unknown'],['../d9/daa/classxl_1_1fs_1_1Backup.html#a723d4099f7c97d90b4a532dcb0185dd0a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::fs::Backup::Unknown'],['../d9/daa/classxl_1_1fs_1_1Backup.html#a4a3d01ff3b9c7af1b091ddd865a1ff3ba88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::fs::Backup::Unknown'],['../d7/d47/classxl_1_1fs_1_1File.html#a1836700a43e682524fb22a45ff7c30b0a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::fs::File::Unknown'],['../d8/d41/classxl_1_1fs_1_1FileType.html#a75e1cd92ad7cc7ddc743e0751048a1b0a88183b946cc5f0e8c96b2e66e1c74a7e',1,'xl::fs::FileType::Unknown']]],
+  ['unlock_11',['unlock',['../d3/ddd/classxl_1_1sync_1_1Mutex.html#ac01067e8ae04779ba7ac0f26f75dc13f',1,'xl::sync::Mutex::unlock()'],['../d4/dde/classxl_1_1sync_1_1IpcMutex.html#a4a2085eb67a3f059909a94a497c37a00',1,'xl::sync::IpcMutex::unlock()']]],
+  ['unmount_12',['unMount',['../d7/d0e/classxl_1_1fs_1_1Volume.html#a50ea5f5b12259c2e8f59aefd7e4deb60',1,'xl::fs::Volume']]],
+  ['unsetbit_13',['unsetBit',['../d5/de4/classxl_1_1core_1_1Bitset.html#a993f9fb3d61e2013bd025cafdc102768',1,'xl::core::Bitset']]],
+  ['updateall_14',['updateAll',['../d0/d39/classxl_1_1patterns_1_1Observers.html#abfbfb6c4100cf08f222c93772a11613a',1,'xl::patterns::Observers']]],
+  ['usage_15',['usage',['../d0/de8/classxl_1_1system_1_1info_1_1Cpu.html#aaacde9b6e2d08afa9e04d350df07337f',1,'xl::system::info::Cpu::usage()'],['../d7/d0d/classxl_1_1system_1_1info_1_1Ram.html#a04c9328df4d6505ebb7232f828789048',1,'xl::system::info::Ram::usage()']]],
+  ['user_16',['user',['../d8/d50/classxl_1_1db_1_1mysql_1_1Options.html#a57f8ed9f006820fbc59b2fc91de5a992',1,'xl::db::mysql::Options::user'],['../d8/d27/classxl_1_1system_1_1User.html',1,'xl::system::User']]],
+  ['user_2ecpp_17',['User.cpp',['../d4/dd1/User_8cpp.html',1,'']]],
+  ['user_2eh_18',['User.h',['../d3/d30/User_8h.html',1,'']]],
+  ['useresult_19',['useresult',['../da/d20/classxl_1_1db_1_1mysql_1_1UseResult.html',1,'xl::db::mysql::UseResult'],['../da/d20/classxl_1_1db_1_1mysql_1_1UseResult.html#a5e2061765bc1d0f6ca98b2b83108625a',1,'xl::db::mysql::UseResult::UseResult()']]],
+  ['utils_20',['Utils',['../da/dad/classxl_1_1core_1_1Utils.html',1,'xl::core']]],
+  ['utils_2eh_21',['Utils.h',['../d9/ded/Utils_8h.html',1,'']]],
+  ['utils_2einl_22',['Utils.inl',['../d0/d65/Utils_8inl.html',1,'']]]
+];
