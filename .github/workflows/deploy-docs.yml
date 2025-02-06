@@ -41,7 +41,7 @@ jobs:
         path: xLib
 
     - name: Docs - Generate
-      run: cd ./xLib/Build && ./gen_docs.sh
+      run: cd ./xLib/Build && ./gen_eclipse.sh && ./gen_docs.sh
 
     - name: Docs - Move to root dir
       run: |
