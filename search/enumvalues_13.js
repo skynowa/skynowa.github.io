@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['warning_0',['Warning',['../d1/d9a/classxl_1_1log_1_1ILog.html#ac4a65f6ab768ef3822ce5dfd13e90328a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'xl::log::ILog']]],
+  ['weekly_1',['Weekly',['../d9/daa/classxl_1_1fs_1_1Backup.html#a723d4099f7c97d90b4a532dcb0185dd0a6c25e6a6da95b3d583c6ec4c3f82ed4d',1,'xl::fs::Backup']]],
+  ['white_2',['white',['../d0/ddb/classxl_1_1system_1_1Console.html#a33dcdce666b1f0871f3f4faefe6f9205a25a81701fbfa4a1efdf660a950c1d006',1,'xl::system::Console::White'],['../d0/ddb/classxl_1_1system_1_1Console.html#a71383d76e228c8e91cc4f0a494dfc3aea25a81701fbfa4a1efdf660a950c1d006',1,'xl::system::Console::White']]],
+  ['windows2000_3',['Windows2000',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2abea19de310fd7d8eb8601733718d34af',1,'xl::system::info::Os']]],
+  ['windows3_4',['Windows3',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a3a243195ae659723fa8bd7f36b49c1f3',1,'xl::system::info::Os']]],
+  ['windows7_5',['Windows7',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a12bea9674f3d121afd7750d332933b41',1,'xl::system::info::Os']]],
+  ['windows95_6',['Windows95',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a6ee5f181be260f8fb97639f4199a5358',1,'xl::system::info::Os']]],
+  ['windows98_7',['Windows98',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2ae5b23ea8d971d5e5a54bcabbb09dacdf',1,'xl::system::info::Os']]],
+  ['windowshomeserver_8',['WindowsHomeServer',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2abfbe6e43c49a8e825816262fdf323ac1',1,'xl::system::info::Os']]],
+  ['windowsnt_9',['WindowsNT',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a08349808bd1c8328baf7a5a8e39cf63c',1,'xl::system::info::Os']]],
+  ['windowsserver2003_10',['WindowsServer2003',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2af96d49dd848104c4f225ccaaf51bbd74',1,'xl::system::info::Os']]],
+  ['windowsserver2003r2_11',['WindowsServer2003R2',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2ab816349bc36b7031b37d571e7e6f24b4',1,'xl::system::info::Os']]],
+  ['windowsserver2008_12',['WindowsServer2008',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2af4425bd08bd0302e0f56526488cb506b',1,'xl::system::info::Os']]],
+  ['windowsserver2008r2_13',['WindowsServer2008R2',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2ae92576b060c13d534cf4d4790a52c8d2',1,'xl::system::info::Os']]],
+  ['windowsvista_14',['WindowsVista',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a183cd38167276805b345b29de7c8c753',1,'xl::system::info::Os']]],
+  ['windowsxp_15',['WindowsXP',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a2f6a9a8360f15ecb845394e48081600b',1,'xl::system::info::Os']]],
+  ['windowsxpprox64edition_16',['WindowsXPProx64Edition',['../d9/d6e/classxl_1_1system_1_1info_1_1Os.html#a2bff77941719acf4a80b9346ba7d2bc2a7215ee1d10cee02701cc2eaa17074aa3',1,'xl::system::info::Os']]],
+  ['write_17',['write',['../da/dd0/classxl_1_1fs_1_1FileInfo.html#a37460b1bc8e4b9d88a24ca4ffb653363a1129c0e4d43f2d121652a7302712cff6',1,'xl::fs::FileInfo::Write'],['../da/dd0/classxl_1_1fs_1_1FileInfo.html#a63b8c2ba759df66be6cda93d19551c27a1129c0e4d43f2d121652a7302712cff6',1,'xl::fs::FileInfo::Write'],['../d9/df1/classxl_1_1fs_1_1FileIO.html#a4d4e8a66e0ca4173767b704b95596c5aa1129c0e4d43f2d121652a7302712cff6',1,'xl::fs::FileIO::Write']]],
+  ['write_5fbsd_18',['Write_bsd',['../d9/d51/classxl_1_1fs_1_1FsWatcher.html#ad8a1dc8a49a710818bb5fe2a449c66b4af7c8ed700c58ddfb0746594bd74faafa',1,'xl::fs::FsWatcher']]]
+];

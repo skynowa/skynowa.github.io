@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['servererror_0',['ServerError',['../d0/d78/classxl_1_1package_1_1curl_1_1HttpClient.html#a5d341a111403a9a33fc3a2254ba1d9f3a7d65c64901711bc2cd2a33ff2641fbe9',1,'xl::package::curl::HttpClient']]],
+  ['setgroupid_1',['SetGroupId',['../da/dd0/classxl_1_1fs_1_1FileInfo.html#a63b8c2ba759df66be6cda93d19551c27af347ee5291026c211629df4823aa8b62',1,'xl::fs::FileInfo']]],
+  ['setuserid_2',['SetUserId',['../da/dd0/classxl_1_1fs_1_1FileInfo.html#a63b8c2ba759df66be6cda93d19551c27a762a4ebaf5383c01675be8cc9687f2c3',1,'xl::fs::FileInfo']]],
+  ['sfhtml_3',['sfHtml',['../db/d63/structxl_1_1package_1_1Ssh2ClientOption.html#a432b9604c18e5f612d9ae39cb0010f9ea2f4b467eea3445f0429e89d9f99ccf60',1,'xl::package::Ssh2ClientOption']]],
+  ['sfraw_4',['sfRaw',['../db/d63/structxl_1_1package_1_1Ssh2ClientOption.html#a432b9604c18e5f612d9ae39cb0010f9ea97e6ad8a21c3fb68f57b8d475b4b3099',1,'xl::package::Ssh2ClientOption']]],
+  ['sftext_5',['sfText',['../db/d63/structxl_1_1package_1_1Ssh2ClientOption.html#a432b9604c18e5f612d9ae39cb0010f9ea190b188b506352dfc7dba4776613b39d',1,'xl::package::Ssh2ClientOption']]],
+  ['sfunknown_6',['sfUnknown',['../db/d63/structxl_1_1package_1_1Ssh2ClientOption.html#a432b9604c18e5f612d9ae39cb0010f9ea061b7f965e598c26e07624b9292d46ec',1,'xl::package::Ssh2ClientOption']]],
+  ['shell_7',['Shell',['../d0/dcc/classxl_1_1fs_1_1Path.html#a190e2f1c4767f1061d16c5cefcac7b8daea89b68c34ce4a63c0f77e17413c6e30',1,'xl::fs::Path']]],
+  ['socket_8',['socket',['../d4/df4/namespacexl_1_1core.html#adc71f0e72c4ad64497ec11a33f9711f7a69f69b59aae6f4ee1a47bbc1086ecdb4',1,'xl::core::Socket'],['../d8/d41/classxl_1_1fs_1_1FileType.html#a75e1cd92ad7cc7ddc743e0751048a1b0a69f69b59aae6f4ee1a47bbc1086ecdb4',1,'xl::fs::FileType::Socket']]],
+  ['socket_5fbuff_5fsize_9',['SOCKET_BUFF_SIZE',['../d6/dbf/classxl_1_1net_1_1ISocket.html#ad934f99b749ea3f1c7bf9f417c5920caaa52a6b99528d2a51b213a9bc241b6b97',1,'xl::net::ISocket']]],
+  ['socket_5ftimeout_10',['SOCKET_TIMEOUT',['../d6/dbf/classxl_1_1net_1_1ISocket.html#ad934f99b749ea3f1c7bf9f417c5920caaeb7e6c69f874969633295a5750ade48a',1,'xl::net::ISocket']]],
+  ['socks4_11',['Socks4',['../d6/d02/namespacexl_1_1package.html#a3aa070fbc9a9a6f3abc84ed3a2014f81a50ca47e847512b72dcd67d6317aa2c84',1,'xl::package']]],
+  ['socks4a_12',['Socks4A',['../d6/d02/namespacexl_1_1package.html#a3aa070fbc9a9a6f3abc84ed3a2014f81a2514197dde104400143bd74a4f894dfb',1,'xl::package']]],
+  ['socks5_13',['Socks5',['../d6/d02/namespacexl_1_1package.html#a3aa070fbc9a9a6f3abc84ed3a2014f81aaa859cbfffc456f7df86104fee7214b6',1,'xl::package']]],
+  ['socks5hostname_14',['Socks5Hostname',['../d6/d02/namespacexl_1_1package.html#a3aa070fbc9a9a6f3abc84ed3a2014f81adfcadf609398d116744ececca86d750a',1,'xl::package']]],
+  ['stdfile_15',['StdFile',['../d4/df4/namespacexl_1_1core.html#adc71f0e72c4ad64497ec11a33f9711f7accdea2b8269ee23b76dab22a8e66ae21',1,'xl::core']]],
+  ['stdout_16',['Stdout',['../da/d37/classxl_1_1debug_1_1ErrorReport.html#a8a8d80a828caa03346bb5100e1a341d7a21d983484658a89e3070776fae2261f5',1,'xl::debug::ErrorReport']]],
+  ['stdoutlog_17',['StdoutLog',['../da/d37/classxl_1_1debug_1_1ErrorReport.html#a8a8d80a828caa03346bb5100e1a341d7aff46e5d6918dbaa87efb18612e8486d7',1,'xl::debug::ErrorReport']]],
+  ['stickybit_18',['StickyBit',['../da/dd0/classxl_1_1fs_1_1FileInfo.html#a63b8c2ba759df66be6cda93d19551c27af31643762f32dce8c4fc4fb5e7f94f51',1,'xl::fs::FileInfo']]],
+  ['success_19',['success',['../d0/d78/classxl_1_1package_1_1curl_1_1HttpClient.html#a5d341a111403a9a33fc3a2254ba1d9f3a505a83f220c02df2f85c3810cd9ceb38',1,'xl::package::curl::HttpClient::Success'],['../d1/dd5/classxl_1_1package_1_1Application.html#a0f124994643b11796ba87b6632536245a62d12eaf165553cd223c3e3f62b4b895',1,'xl::package::Application::Success']]],
+  ['symboliclink_20',['SymbolicLink',['../d8/d41/classxl_1_1fs_1_1FileType.html#a75e1cd92ad7cc7ddc743e0751048a1b0aab3e5ceb5884bafd3068b93e7c63cae5',1,'xl::fs::FileType']]]
+];
