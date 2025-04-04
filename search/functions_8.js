@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['handle_0',['handle',['../d3/ddd/classxl_1_1sync_1_1Mutex.html#ac8908c72db4ce3ec79b378a6d52e5884',1,'xl::sync::Mutex::handle()'],['../dc/d91/classxl_1_1core_1_1Handle.html#a0b7762ef467d50ab2fae07046e770291',1,'xl::core::Handle::Handle()'],['../db/d6e/classxl_1_1sync_1_1Thread.html#a0393bc9a9cc13c855b4954d33e39d83e',1,'xl::sync::Thread::handle()'],['../d7/dd3/classxl_1_1sync_1_1Process.html#a05fb872a3d945532e6212489c459e784',1,'xl::sync::Process::handle()'],['../dd/d7a/classxl_1_1sync_1_1Pipe.html#a0d4d596f457455eb30431b8ae2f858b1',1,'xl::sync::Pipe::handle()'],['../d2/d26/classxl_1_1sync_1_1IpcSemaphore.html#afd26d584cc14f486e5e5b9524aaf8d85',1,'xl::sync::IpcSemaphore::handle()'],['../d4/dde/classxl_1_1sync_1_1IpcMutex.html#acdc946a6a579b6cc01689873c309c73c',1,'xl::sync::IpcMutex::handle()'],['../d3/d7e/classxl_1_1sync_1_1Event.html#a09c95f293d3e48c450e47214ad4bf8f9',1,'xl::sync::Event::handle()'],['../d2/dd8/classxl_1_1sync_1_1Condition.html#a9a59f14953345e6e5a4a1e6b10e25eee',1,'xl::sync::Condition::handle()'],['../d6/dbf/classxl_1_1net_1_1ISocket.html#a60290b83379e433d552562ec92893a33',1,'xl::net::ISocket::handle()'],['../da/d1f/classxl_1_1interface___1_1ISync.html#a9e23b019cfd8115829260ff6ebc5b26c',1,'xl::interface_::ISync::handle()'],['../dc/d91/classxl_1_1core_1_1Handle.html#a2f211fd78d77f4e113997678d7be7c79',1,'xl::core::Handle::Handle(const Handle &amp;handle)'],['../dc/d91/classxl_1_1core_1_1Handle.html#a7127d45a27777461e06dfa25c14c55a5',1,'xl::core::Handle::Handle(const T &amp;handle)']]],
+  ['handlebyid_1',['handleById',['../d7/dd3/classxl_1_1sync_1_1Process.html#af530f80e28ce65238540a99c27ea3354',1,'xl::sync::Process']]],
+  ['handleread_2',['handleRead',['../dd/d7a/classxl_1_1sync_1_1Pipe.html#a9ce54e134f64995fed8e34739926f0a0',1,'xl::sync::Pipe']]],
+  ['handlewrite_3',['handleWrite',['../dd/d7a/classxl_1_1sync_1_1Pipe.html#a12f682158b9a9b34feeea1f75777a09a',1,'xl::sync::Pipe']]],
+  ['head_4',['head',['../d0/d78/classxl_1_1package_1_1curl_1_1HttpClient.html#ad878726ec47715598aeb0eff3e3c40ae',1,'xl::package::curl::HttpClient']]],
+  ['header_5',['header',['../d6/daa/classxl_1_1package_1_1CsvReader.html#a6f1372e9b2c6c03288618b3a117bf74c',1,'xl::package::CsvReader']]],
+  ['headers_6',['headers',['../d6/daa/classxl_1_1package_1_1CsvReader.html#a74b045c5e83d1255cc40bffca957fe97',1,'xl::package::CsvReader']]],
+  ['homeasbrief_7',['homeAsBrief',['../d0/dcc/classxl_1_1fs_1_1Path.html#a0fbab2f4692ee61e9f27c2f7798ddedf',1,'xl::fs::Path']]],
+  ['homedir_8',['homeDir',['../d0/dcc/classxl_1_1fs_1_1Path.html#a8cab0c6152704ac323bc6ec4fd4ad49d',1,'xl::fs::Path']]],
+  ['host_9',['Host',['../dc/dd5/classxl_1_1system_1_1info_1_1Host.html#a4ffa70b2237e8a518ee4285126e7ecc2',1,'xl::system::info::Host']]],
+  ['hostaddrbyname_10',['hostAddrByName',['../da/dcf/classxl_1_1net_1_1DnsClient.html#a5e875036f9ef983013894fec5be013ac',1,'xl::net::DnsClient']]],
+  ['hostaddrinfo_11',['hostAddrInfo',['../da/dcf/classxl_1_1net_1_1DnsClient.html#ac96757040eeade0c0a62f4a50c020252',1,'xl::net::DnsClient']]],
+  ['hostnamebyaddr_12',['hostNameByAddr',['../da/dcf/classxl_1_1net_1_1DnsClient.html#a9e5df062bab2ef2868774d3e783553f2',1,'xl::net::DnsClient']]],
+  ['hour_13',['hour',['../d8/d6f/classxl_1_1core_1_1DateTimeValidator.html#aa9e224e01bfef529bd277db9352e76e1',1,'xl::core::DateTimeValidator']]],
+  ['ht_14',['ht',['../d9/de7/classxl_1_1core_1_1Const.html#a5747524012e7924f85f28857fce4e194',1,'xl::core::Const']]],
+  ['hta_15',['htA',['../d9/de7/classxl_1_1core_1_1Const.html#aaccfefe845d87a68c9c9dd7970b0d8ed',1,'xl::core::Const']]],
+  ['httpclient_16',['HttpClient',['../d0/d78/classxl_1_1package_1_1curl_1_1HttpClient.html#a73216b98a57adb6659f53d6e4804c0ab',1,'xl::package::curl::HttpClient']]],
+  ['httpcode_17',['httpCode',['../d0/d78/classxl_1_1package_1_1curl_1_1HttpClient.html#a9854d232c0e4a92daddbb07a05c43e27',1,'xl::package::curl::HttpClient']]],
+  ['htw_18',['htW',['../d9/de7/classxl_1_1core_1_1Const.html#a2770a0b57faa23d1947ef041a066352b',1,'xl::core::Const']]],
+  ['hyphen_19',['hyphen',['../d9/de7/classxl_1_1core_1_1Const.html#afbcf45ead78f2000f33475cd7e72087e',1,'xl::core::Const']]],
+  ['hyphena_20',['hyphenA',['../d9/de7/classxl_1_1core_1_1Const.html#a196dabeb9215a5048a466cfac001b9f4',1,'xl::core::Const']]],
+  ['hyphenw_21',['hyphenW',['../d9/de7/classxl_1_1core_1_1Const.html#a18d776edddbdc68b57a5af03dfabd823',1,'xl::core::Const']]]
+];
