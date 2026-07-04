@@ -51,7 +51,7 @@ var searchData=
   ['bufferfreet_48',['bufferFreeT',['../da/dad/classxl_1_1core_1_1Utils.html#a724792621d1f75dfd94b306b57880242',1,'xl::core::Utils']]],
   ['buffering_20review_20pull_20request_209_49',['Merged in File-buffering-review (pull request #9)',['../d2/d14/id_changelog.html#autotoc_md152',1,'']]],
   ['bufferingmode_50',['BufferingMode',['../d9/df1/classxl_1_1fs_1_1FileIO.html#a577d106c1fae1d15c9436e2c672bf911',1,'xl::fs::FileIO']]],
-  ['build_51',['Build',['../da/d81/md__2home_2runner_2work_2skynowa_8github_8io_2skynowa_8github_8io_2xLib_2TODO.html#autotoc_md31',1,'']]],
+  ['build_51',['Build',['../db/d89/md__2home_2runner_2work_2xLib_2xLib_2TODO.html#autotoc_md31',1,'']]],
   ['buildinfo_52',['buildinfo',['../d8/d8b/classxl_1_1debug_1_1BuildInfo.html#a921969231c4bc9a17a9be4c5c7616a42',1,'xl::debug::BuildInfo::BuildInfo()'],['../d1/dd5/classxl_1_1package_1_1Application.html#afb3b2a5d7133bde41afc2a21b41bb859',1,'xl::package::Application::buildInfo()'],['../d8/d8b/classxl_1_1debug_1_1BuildInfo.html',1,'xl::debug::BuildInfo']]],
   ['buildinfo_2eh_53',['BuildInfo.h',['../d1/d22/BuildInfo_8h.html',1,'']]],
   ['buildinfo_2einl_54',['BuildInfo.inl',['../d7/dcd/BuildInfo_8inl.html',1,'']]],

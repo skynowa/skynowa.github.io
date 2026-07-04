@@ -21,7 +21,7 @@ var searchData=
   ['unitloops_18',['unitLoops',['../d0/db1/structxl_1_1test_1_1UnitOption.html#a4856f5a5b39a27e5fd0cf6134e346fe1',1,'xl::test::UnitOption']]],
   ['unitoption_19',['UnitOption',['../d0/db1/structxl_1_1test_1_1UnitOption.html',1,'xl::test']]],
   ['units_2eh_20',['Units.h',['../da/d58/Units_8h.html',1,'']]],
-  ['unix_21',['unix',['../d1/de9/md__2home_2runner_2work_2skynowa_8github_8io_2skynowa_8github_8io_2xLib_2Include_2xLib_2Core_2Date_2ctime.html#autotoc_md11',1,'&lt;tt&gt;struct timeval&lt;/tt&gt; macros (Unix)'],['../d1/de9/md__2home_2runner_2work_2skynowa_8github_8io_2skynowa_8github_8io_2xLib_2Include_2xLib_2Core_2Date_2ctime.html#autotoc_md5',1,'Conversion &lt;tt&gt;struct tm&lt;/tt&gt; to (Unix)']]],
+  ['unix_21',['unix',['../d7/da7/md__2home_2runner_2work_2xLib_2xLib_2Include_2xLib_2Core_2Date_2ctime.html#autotoc_md11',1,'&lt;tt&gt;struct timeval&lt;/tt&gt; macros (Unix)'],['../d7/da7/md__2home_2runner_2work_2xLib_2xLib_2Include_2xLib_2Core_2Date_2ctime.html#autotoc_md5',1,'Conversion &lt;tt&gt;struct tm&lt;/tt&gt; to (Unix)']]],
   ['unix_20impl_20417_22',['process-unix-impl (#417)',['../d2/d14/id_changelog.html#autotoc_md114',1,'']]],
   ['unixslash_23',['unixSlash',['../d9/de7/classxl_1_1core_1_1Const.html#acb3470f2f254f2c437946dea61aa7e09',1,'xl::core::Const']]],
   ['unixslasha_24',['unixSlashA',['../d9/de7/classxl_1_1core_1_1Const.html#ac532fbdf780bbeaeb3aa56a4d119a3bc',1,'xl::core::Const']]],

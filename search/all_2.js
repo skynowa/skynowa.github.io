@@ -7,7 +7,7 @@ var searchData=
   ['2_20443_4',['cmake-doxygen-doc-2 (#443)',['../d2/d14/id_changelog.html#autotoc_md90',1,'']]],
   ['2_20480_5',['path-bad-chars-2 (#480)',['../d2/d14/id_changelog.html#autotoc_md61',1,'']]],
   ['2_20impl_20483_6',['xLib-Pattern: Test_Singleton.cpp (+4) [180+/2-] - impl (#483)',['../d2/d14/id_changelog.html#autotoc_md57',1,'']]],
-  ['20_7',['C++20',['../da/d81/md__2home_2runner_2work_2skynowa_8github_8io_2skynowa_8github_8io_2xLib_2TODO.html#autotoc_md22',1,'']]],
+  ['20_7',['C++20',['../db/d89/md__2home_2runner_2work_2xLib_2xLib_2TODO.html#autotoc_md22',1,'']]],
   ['207_204_20impl_20484_8',['xLib-Algos: Test_Algos.cpp (+3) [207+/4-] - impl (#484)',['../d2/d14/id_changelog.html#autotoc_md56',1,'']]],
   ['209_2015_20impl_20491_9',['xLib-Fs: Test_File.cpp (+9) [209+/15-] - impl (#491)',['../d2/d14/id_changelog.html#autotoc_md49',1,'']]],
   ['23_20473_10',['test-impl-as-func-23 (#473)',['../d2/d14/id_changelog.html#autotoc_md66',1,'']]],

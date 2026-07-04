@@ -9,7 +9,7 @@ var searchData=
   ['level_6',['level',['../d1/d9a/classxl_1_1log_1_1ILog.html#ac4a65f6ab768ef3822ce5dfd13e90328',1,'xl::log::ILog::Level'],['../d3/d2c/classxl_1_1system_1_1info_1_1PowerSupply.html#aa5f5f2c2156e125862d959233332aec1',1,'xl::system::info::PowerSupply::level()']]],
   ['levels_20impl_20461_7',['TraceStream-levels-impl (#461)',['../d2/d14/id_changelog.html#autotoc_md78',1,'']]],
   ['lib_8',['Lib',['../d0/dcc/classxl_1_1fs_1_1Path.html#a190e2f1c4767f1061d16c5cefcac7b8da043d23e54edc5360a7785ae212d1b806',1,'xl::fs::Path']]],
-  ['library_9',['library',['../d1/de9/md__2home_2runner_2work_2skynowa_8github_8io_2skynowa_8github_8io_2xLib_2Include_2xLib_2Core_2Date_2ctime.html',1,'&lt;tt&gt;ctime&lt;/tt&gt; - C Time Library'],['../index.html',1,'xLib - C++ cross-platform library']]],
+  ['library_9',['library',['../d7/da7/md__2home_2runner_2work_2xLib_2xLib_2Include_2xLib_2Core_2Date_2ctime.html',1,'&lt;tt&gt;ctime&lt;/tt&gt; - C Time Library'],['../index.html',1,'xLib - C++ cross-platform library']]],
   ['libs_10',['libs',['../df/d6f/classxl_1_1system_1_1info_1_1Libs.html',1,'xl::system::info::Libs'],['../df/d6f/classxl_1_1system_1_1info_1_1Libs.html#ac5d3a11ac64611466fd27995d85c036f',1,'xl::system::info::Libs::Libs()'],['../d8/d8b/classxl_1_1debug_1_1BuildInfo.html#a3931fc57ebfdd646495a3e2477398950',1,'xl::debug::BuildInfo::libs()']]],
   ['libs_2ecpp_11',['Libs.cpp',['../dd/df6/Libs_8cpp.html',1,'']]],
   ['libs_2eh_12',['Libs.h',['../dc/dca/Libs_8h.html',1,'']]],
