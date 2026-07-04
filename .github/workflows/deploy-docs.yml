@@ -40,7 +40,7 @@ jobs:
         repository: skynowa/xLib
         ref: master
         path: xLib
-        token: ${{ secrets.XLIB_READ_TOKEN || github.token }}
+        ssh-key: ${{ secrets.XLIB_DEPLOY_KEY }}
 
     - name: Docs - Generate
       run: cd ./xLib/Docs && doxygen ./Doxyfile
